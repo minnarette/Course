@@ -1,0 +1,37 @@
+// vendor
+@import './vendor/normilize';
+@import './vendor/font';
+
+// base
+@import './base/variables';
+@import './base/reset';
+@import './base/typography';
+@import './base/container';
+@import './base/buttons';
+@import './base/slick';
+
+// layout
+@import './layout/header';
+@import './layout/main';
+@import './layout/section';
+@import './layout/wrapper';
+@import './layout/footer';
+
+// components
+@import './components/header-nav';
+@import './components/nav-menu';
+@import './components/logo';
+@import './components/about';
+@import './components/description';
+@import './components/demo-block';
+@import './components/qr-code';
+@import './components/footer-nav';
+@import './components/social-list';
+@import './components/gallery-slider';
+
+// section-main
+@import './sections/section-main';
+@import './sections/section-description';
+@import './sections/section-download';
+@import './sections/section-gallery';
+@import './sections/section-demo';

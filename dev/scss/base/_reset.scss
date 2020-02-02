@@ -1,0 +1,28 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+* {
+    max-height: 1000000px;
+}
+
+body {
+    font: $font-weight-base #{$font-size-base}/#{$base-line-height} $base-font-sans-serif;
+    background: $base-background-color;
+    min-width: $base-min-width;
+    color: $base-color;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}

@@ -1,0 +1,22 @@
+.social-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 0 20px;
+
+    li {
+        width: 50px;
+        height: 50px;
+
+        &:not(:last-child) {
+            margin-right: 35px;
+        }
+    }
+}
+
+@media all and(max-width: 768px) {
+    .social-list {
+        margin: 0 0 20px;
+    }
+}

@@ -1,0 +1,40 @@
+// Fonts
+$base-font-sans-serif: "Roboto",
+"Raleway",
+"Helvetica Neue",
+"Helvetica",
+sans-serif;
+$second-font-sans-serif: "Pogo",
+"Raleway",
+"Helvetica Neue",
+"Helvetica",
+sans-serif;
+
+// color
+$white: #fff;
+$yellow: #f4c945;
+$light-gray: #e7e6dd;
+$black: #262626;
+
+// Body
+$base-background-color: $white !default;
+$font-size-base: 16px !default;
+$font-weight-base: 300 !default;
+$base-line-height: 1.6 !default;
+$base-min-width: 320px !default;
+$base-color: $light-gray !default;
+$base-font-family: $base-font-sans-serif;
+
+// Container
+$base-max-width: 1200px !default;
+$base-padding: 0 15px !default;
+
+// Headers
+$h1-font-size: 50px !default;
+$h2-font-size: 30px !default;
+$h3-font-size: 14px !default;
+$h4-font-size: 22px !default;
+$h5-font-size: 18px !default;
+$h6-font-size: 14px !default;
+$headings-line-height: 1;
+$headings-font-family: $base-font-sans-serif;

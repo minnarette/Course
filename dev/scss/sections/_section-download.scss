@@ -1,0 +1,70 @@
+.section-download {
+    padding: 80px 0;
+    background: $light-gray;
+    text-align: center;
+    color: $black;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+
+    p {
+        max-width: 570px;
+        text-align: left;
+        margin: 0 auto 45px;
+    }
+
+    .btn {
+        &:not(:last-child) {
+            margin: 0 auto 35px;
+            font-weight: lighter;
+        }
+
+        &-download {
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 35px;
+        }
+    }
+
+    h2 {
+        color: $black;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    .section-download {
+        padding: 50px 0;
+
+        h2 {
+            margin: 0 0 30px;
+            font-size: 25px;
+        }
+
+        p {
+            margin: 0 auto 35px;
+        }
+
+        .btn {
+            margin: 0 0 30px;
+        }
+    }
+}
+
+@media all and (max-width: 480px) {
+    .section-download {
+        padding: 30px 0;
+
+        h2 {
+            font-size: 20px;
+            margin: 0 0 25px;
+        }
+
+        p {
+            margin: 0 auto 25px;
+        }
+    }
+}

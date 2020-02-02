@@ -1,0 +1,17 @@
+.demo-block {
+    height: 600px;
+    background: $light-gray;
+    width: 100%;
+}
+
+@media all and (max-width: 1024px) {
+    .demo-block {
+        height: 400px;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .demo-block {
+        height: 300px;
+    }
+}

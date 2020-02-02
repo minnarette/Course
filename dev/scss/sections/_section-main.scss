@@ -1,0 +1,30 @@
+.section-main {
+    background: $black;
+    position: relative;
+    padding: 79px 0 0;
+    height: calc(100vh + 79px);
+
+    &:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-color: rgba(32, 32, 32, 0.8);
+    }
+}
+
+.btn {
+    &-readmore {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+
+        &:not(:last-child) {
+            margin: 0 auto 35px;
+        }
+    }
+}

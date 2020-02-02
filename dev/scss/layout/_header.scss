@@ -1,0 +1,15 @@
+.header {
+    padding: 15px 0;
+    background: $light-gray;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

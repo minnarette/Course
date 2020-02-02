@@ -1,0 +1,11 @@
+.qr-code-block {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto 35px;
+}
+
+@media all and (max-width: 1024px) {
+    .qr-code-block {
+        margin: 0 auto 30px;
+    }
+}

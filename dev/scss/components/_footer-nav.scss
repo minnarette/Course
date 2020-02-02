@@ -1,0 +1,35 @@
+.footer-nav {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+
+    .nav-menu {
+        margin: 0;
+
+        li {
+            &:not(:last-child) {
+                margin-right: 35px;
+            }
+        }
+
+        a {
+            color: $light-gray;
+        }
+    }
+}
+
+@media all and (max-width: 768px) {
+    .footer-nav {
+        margin: 0 0 30px;
+
+        .nav-menu {
+            flex-direction: column;
+
+            li {
+                &:not(:last-child) {
+                    margin: 0 0 15px;
+                }
+            }
+        }
+    }
+}

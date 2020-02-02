@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "216606654733",
+    "firebase_url": "https://thelastlightinlife.firebaseio.com",
+    "project_id": "thelastlightinlife",
+    "storage_bucket": "thelastlightinlife.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216606654733:android:2ad01d8210ac7bd5d6b044",
+        "android_client_info": {
+          "package_name": "com.sherman.TheLastLightInLife"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "216606654733-c0ch2rcm6k5dle6975n8jeos60pmcjbd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3ldCKC_h7L0seHEeSuE_0fcm0aqplbRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "216606654733-c0ch2rcm6k5dle6975n8jeos60pmcjbd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

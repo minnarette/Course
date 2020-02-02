@@ -1,0 +1,17 @@
+.logo {
+    display: flex;
+    max-width: 195px;
+    align-items: center;
+
+    a {
+        margin-right: 7px;
+        min-width: 49px;
+    }
+
+    span {
+        font-family: $second-font-sans-serif;
+        color: #141414;
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
